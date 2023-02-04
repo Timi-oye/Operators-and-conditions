@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Hello world
+  <script>
+    let firstnum = parseInt(prompt('First number = '));
+    let secondnum = parseInt(prompt('Second number = '));
+    let usersChoice = prompt('Enter one of these [/, *, +, - %] = ');
+
+    let add = "+";
+    let sub = "-";
+    let mul = "*";
+    let div = "/";
+    let rem = "%";
+
+    // if (usersChoice === add){
+    //     alert(".........Answer........");
+    //   alert('Addition = ' + (firstnum + secondnum));
+    // }
+    // else if(usersChoice === sub){
+    //     alert(".........Answer........");
+    //     alert('Subtraction = ' + (firstnum-secondnum));
+    // }
+    // else if(usersChoice === mul){
+    //     alert(".........Answer........");
+    //     alert('Multiplication = ' + (firstnum*secondnum));
+    // }
+    // else if(usersChoice === div){
+    //     alert(".........Answer........");
+    //     alert('Division = ' + (firstnum/secondnum));
+    // }
+    // else if(usersChoice === rem){
+    //     alert(".........Answer........");
+    //     alert('Modulo = ' + (firstnum%secondnum));
+    // }
+
+
+
+    switch (usersChoice) {
+      case add:
+        alert(".........Answer........");
+        alert('Addition = ' + (firstnum + secondnum));
+        break;
+
+      case sub:
+        alert(".........Answer........");
+        alert('Subtraction = ' + (firstnum - secondnum));
+        break;
+
+      case mul:
+        alert(".........Answer........");
+        alert('Multiplication = ' + (firstnum * secondnum));
+        break;
+
+      case div:
+        alert(".........Answer........");
+        alert('Division = ' + (firstnum / secondnum));
+        break;
+
+      case rem:
+        alert(".........Answer........");
+        alert('Modulo = ' + (firstnum % secondnum));
+        break;
+      default:
+        alert(".........Syntax Error........");
+        alert('This is not a valid operaton');
+    }
+  </script>
+</body>
+
+</html>
